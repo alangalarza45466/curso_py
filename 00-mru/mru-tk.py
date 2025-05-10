@@ -7,6 +7,7 @@ def distancia_recorrida():
     tiempo = entry_tiempo.get()
     label_distancia.configure(text=f"distancia recorrida: {float(velocity) * float(tiempo)}")
 
+# crear ventana
 root = tk.Tk()
 
 # configuracion root

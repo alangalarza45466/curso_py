@@ -4,7 +4,7 @@ Se desea calcualr la distancia recorrida (m) por un móvil que tiene velocidad c
 
 Ejercicio 2.
 
-Se becesita obtener el promedio simple de un estudiante a partir de sus tres notas parciales N1, N2 y N3.
+Se necesita obtener el promedio simple de un estudiante a partir de sus tres notas parciales N1, N2 y N3.
 
 Ejercicio 3.
 
