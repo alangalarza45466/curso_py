@@ -10,7 +10,7 @@ def distancia_recorrida():
 root = tk.Tk()
 
 # configuracion root
-root.minsize(1080,720)
+root.minsize(350,150)
 root.resizable(0,0)
 
 # elementos
