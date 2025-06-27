@@ -1,0 +1,15 @@
+.header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+.button-hamburger {
+    width: 3rem;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
