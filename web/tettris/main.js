@@ -162,3 +162,31 @@ document.addEventListener("keydown", ev => {
 })
 
 //6.coliciones
+function checkCollicion() {
+    return pice.shape.find((row,y) => {
+        return row.find((value,x)=> {
+            return (
+                value !== 0 &&
+                board[y + pice.position.y]?.[x + pice.position.x] !== 0
+            )
+        })
+    })
+}
+
+//7. solidificar la pieza 
+function solidifyPice() {
+    pice.shape.forEach((row,y) => {
+        row.forEach((value,x) => {
+            if (value === 1) {
+                board[y + pice.position.y][x + pice.position.x] = 1
+            }
+        })
+    })
+    //resetear la posicion de la pieza
+    pice.position.x = Math.floor(BOARD_WIDTH / 2 - 2)
+    pice.position.y = 0
+    //establecer la pieza aleatoria
+    pice.shape = PICE[Math.floor(Math.random() * PICE.length)]
+    //juego finalizado game over 
+    if ()
+}
