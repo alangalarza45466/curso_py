@@ -12,3 +12,4 @@ form.onsubmit=(ev)=>{
     console.log(fruits)
     addFruits()
 }
+    
