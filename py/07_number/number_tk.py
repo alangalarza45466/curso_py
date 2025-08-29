@@ -7,7 +7,7 @@ def pro():
         pro_numero_2 = float(entry_numero_2.get())
         
         promedio = (pro_numero_1 + pro_numero_2) / 2
-        label_promedio.config(text=f"Promedio de los dos números: {int (promedio)}")
+        label_promedio.config(text=f"Promedio de los dos números: {int (promedio)}"), {promedio}")
     except ValueError:
         label_promedio.config(text="Error: ingrese solo números")
 
